@@ -20,7 +20,7 @@ func somme(a float64) float64{
 func main() {
 	T := 0.0
 
-	fmt.Print("Entrez la température:")
+	fmt.Print("Entrez un nombre réel,:")
 	fmt.Scan(&T)
 	fmt.Println(somme(T))
 }
