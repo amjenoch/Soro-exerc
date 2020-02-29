@@ -52,7 +52,7 @@ func control(age, permis, accident , assurance int) string {
 		}
 
 	}
-	return ""
+	return "Refusé"
 
 }
 
