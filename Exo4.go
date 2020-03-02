@@ -6,6 +6,7 @@ import (
 
 func control(age, permis, accident, assurance int) string {
 	switch {
+		
 	case age < 25 && permis < 2:
 		if accident == 0 {
 			if assurance > 5 {
